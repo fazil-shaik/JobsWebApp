@@ -1,0 +1,111 @@
+/* src/App.css */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+/* Light Mode */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light-mode .mode-toggle button {
+  background-color: #8097b0;
+  color: #ffffff;
+}
+
+.light-mode .job-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #000000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.light-mode .job-card:hover {
+  transform: scale(1.05);
+  background-color: #636d77;
+
+}
+
+.bundleit{
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.dark-mode .mode-toggle button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode .job-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #d03131;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dark-mode .job-card:hover {
+  transform: scale(1.05);
+  background-color: #9ea6af;
+}
+
+.App {
+  text-align: center;
+}
+
+.mode-toggle {
+  margin-bottom: 20px;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.job-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #000000;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
