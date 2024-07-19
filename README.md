@@ -38,29 +38,33 @@ Install depenecies
 npm install
 ```
 Set Up Environment Variables:
+
 Create a .env file in the backend directory and add your API key:
+
 ```
 API_KEY=your_api_key_here
 ```
 
 Start the Server:
 ```
-npm run dev
+npm start
 ```
+
+
 Frontend Setup
 Clone the Repository:
 ```
 git clone <repository-url>
 cd job-search-webapp/frontend
+```
 Install Dependencies:
 ```
-install dev dependencies
-```npm install
+npm install
 ```
 Start the Development Server:
 
 ```
-npm start
+npm run dev
 ```
 The frontend application will be running on http://localhost:3000.
 
