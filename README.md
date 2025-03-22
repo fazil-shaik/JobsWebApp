@@ -1,32 +1,33 @@
-#Job Search Web Application
+## Job Search Web Application
 
 
-Overview
+# Overview
 This project is a job search web application that allows users to search for job listings and view details. 
 It features a backend API built with Express and a frontend developed using React. The application supports dark mode
 and integrates with an external job search API to provide real-time job listings.
 
 
-Features
+# Features
 Search for Jobs: Enter a search term to find relevant job listings.
 View Job Details: Click on job links to view more details.
 Dark Mode Toggle: Switch between light and dark modes for better user experience.
 Responsive Design: The application is designed to work on various screen sizes and devices.
 
-##Technology Stack
-#Backend:
+## Technology Stack
+# Backend:
 
-Node.js
+# Node.js
 Express
 Axios
-CORS
+Supabase
 dotenv
-#Frontend:
+
+# Frontend:
 React
 Axios
 CSS for styling
 
-#Backend Setup:
+# Backend Setup:
 
 Clone the Repository:
 ```
@@ -51,7 +52,7 @@ npm start
 ```
 
 
-Frontend Setup
+# Frontend Setup
 Clone the Repository:
 ```
 git clone <repository-url>
@@ -70,6 +71,7 @@ The frontend application will be running on http://localhost:3000.
 
 Usage
 Open the frontend application in your browser.
+Signup if u did'nt registered or else login to the site 
 Enter a search term in the input field and click the "Search" button.
 View the list of job results, and click on "View Job" to open job details in a new tab.
 Toggle between light and dark modes using the "Dark Mode" button.
