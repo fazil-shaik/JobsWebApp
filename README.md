@@ -16,16 +16,19 @@ Responsive Design: The application is designed to work on various screen sizes a
 ## Technology Stack
 # Backend:
 
-# Node.js
+Node.js
 Express
 Axios
 Supabase
 dotenv
 
 # Frontend:
+
 React
 Axios
 CSS for styling
+MUI
+Framer-motion
 
 # Backend Setup:
 
